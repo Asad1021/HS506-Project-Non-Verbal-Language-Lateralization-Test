@@ -34,6 +34,11 @@
   .left-image, .right-image {
     width: 500px; /* Decrease image size */
     height: 500px; /* Decrease image size */
+
+  }
+  .images-container {
+    margin-top: 0;
+    gap: 50px;
   }
   
 }
@@ -41,8 +46,8 @@
 
 @media screen and (max-width: 768px) {
   .left-image, .right-image {
-    width: 200px; /* Decrease image size */
-    height: 200px; /* Decrease image size */
+    width: 150px; /* Decrease image size */
+    height: 150px; /* Decrease image size */
   }
   
 }
@@ -59,7 +64,13 @@
   z-index: 1000;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
-
+@media screen and (max-width: 768px) {
+  .red-dot {
+    width: 8px;
+    height: 8px;
+  }
+  
+}
 .fade-out {
   opacity: 0;
   transition: opacity 0.5s ease-out;
