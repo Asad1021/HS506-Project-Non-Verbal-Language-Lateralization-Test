@@ -66,8 +66,8 @@ function Report({ answers }) {
           </div>
           <p className="explanation">
             {results.hemisphere === 'Right' 
-              ? "This suggests that your left eye dominance indicates right hemisphere lateralization for nonverbal language processing."
-              : "This suggests that your right eye dominance indicates left hemisphere lateralization for nonverbal language processing."}
+              ? "Left eye dominance indicates right hemisphere lateralization for nonverbal language processing."
+              : "Right eye dominance indicates left hemisphere lateralization for nonverbal language processing."}
           </p>
         </div>
       </div>

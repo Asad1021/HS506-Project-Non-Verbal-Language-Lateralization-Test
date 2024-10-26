@@ -92,7 +92,7 @@ function Question({ questionNumber, onAnswer }) {
     const timer = setTimeout(() => {
       setShowImages(false);
       setShowOptions(true);
-    }, 300);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, [questionNumber]);
