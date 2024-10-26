@@ -1,0 +1,45 @@
+.welcome-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome-description {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .start-button {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .start-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  .start-button:active {
+    transform: translateY(0);
+  }
