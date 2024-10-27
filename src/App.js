@@ -4,6 +4,7 @@ import Question from './components/Question';
 import Report from './components/Report';
 import Progress from './components/Progress';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   const [testStarted, setTestStarted] = useState(false);
@@ -48,6 +49,7 @@ function App() {
       )}
       
       {showReport && <Report answers={userAnswers} />}
+      <Footer />
     </div>
   );
 }
