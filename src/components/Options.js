@@ -8,7 +8,7 @@ function Options({ questionNumber, onSelect }) {
   return (
     <div className="options-container">
       <h3 className="question-text">
-        What did you see in the {questionNumber % 2 === 0 ? 'left' : 'right'} eye?
+        What best describes the stimuli in {questionNumber % 2 === 0 ? 'left' : 'right'} eye?
       </h3>
       <div className="options-grid">
         {currentQuestion.options.map((option, index) => (
